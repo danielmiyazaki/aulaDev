@@ -55,6 +55,8 @@ public class desafio {
 					System.out.println("Digite o valor do empréstimo: ");
 					double empr = ler.nextDouble();
 					conta = empr+conta-saque;
+					double taxa = empr*0.11;
+					System.out.println("Valor dos Juros: R$ "+taxa);
 					System.out.println("Sacado: R$ "+saque);
 					System.out.println("Saldo: R$ "+conta);
 					System.out.println("\nOperação realizada com sucesso!");
